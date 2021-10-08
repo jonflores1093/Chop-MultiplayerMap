@@ -1,4 +1,4 @@
-# Storm
+# Chop
 
 Players duke it out in a Factory floor inspired by Dead by Daylight's map "Gideon Meat Plant". 
 
