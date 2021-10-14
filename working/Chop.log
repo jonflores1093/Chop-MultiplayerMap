@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: Chop.map
+Output file: Chop.bsp
+
+---- LoadMapFile ----
+          558 faces
+           93 brushes
+           15 entities
+            7 unique texnames
+          168 texinfo
+
+Opened WAD: D:/QuakeDev/quake-leveldesign-starterkit-master/wads/id1.wad
+Opened WAD: D:/QuakeDev/quake-leveldesign-starterkit-master/wads/prototype_1_3.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           93 brushes
+          132 planes
+---- CSGFaces ----
+          558 brushfaces
+          539 csgfaces
+          501 mergedfaces
+---- SolidBSP ----
+          876 split nodes
+          277 solid leafs
+          600 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1496 leaffaces
+         1466 nodefaces
+---- Portalize ----
+          600 vis leafs
+          600 vis clusters
+         1728 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-16 -320 40), no filling performed.
+Leak file written to Chop.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote Chop.bsp
+          285 planes             5700
+         1853 vertexes          22236
+          876 nodes             21024
+          131 texinfo            5240
+         1466 faces             29320
+         1454 clipnodes         11632
+          601 leafs             16828
+         1496 marksurfaces       2992
+         5860 surfedges         23440
+         3749 edges             14996
+            7 textures          13912
+              lightdata             0
+              visdata               0
+              entdata            1227
+
+0.422 seconds elapsed
+Peak memory usage: 7437336 (7.1M)
